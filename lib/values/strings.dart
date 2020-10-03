@@ -3,7 +3,7 @@ part of values;
 class StringConst {
   //strings
   static const String APP_NAME = "Aerium";
-  static const String APP_TITLE = "David Cobbina Portfolio";
+  static const String APP_TITLE = "Saikiran Vepamani Portfolio";
   static const String SITE_URL = "https://davidcobbina.com";
 
   static const String HOME = "Home";
@@ -16,14 +16,14 @@ class StringConst {
   static const String PHONE_NUMBER = "Phone Number";
   static const String RESUME = "Resume";
   static const String CERTIFICATIONS = "Certifications";
-  static const String EMAIL_VALUE = "davidcobbina47@gmail.com";
+  static const String EMAIL_VALUE = "vepamanisaikiran@gmail.com";
 
   static const String MESSAGE_ME = "Message me";
   static const String GET_IN_TOUCH = "Get in touch";
   static const String VIEW = "View";
   static const String COMING_SOON = "COMING SOON !!";
   static const String BUILT_WITH = "Built with ";
-  static const String DEV_EMAIL = "davidcobbina47@gmail.com";
+  static const String DEV_EMAIL = "vepamanisaikiran@gmail.com";
   static const String EMAIL_URL = "mailto:<$DEV_EMAIL>?subject=&body=";
 
   static const String KEY_SKILLS = "KEY SKILLS";
@@ -36,18 +36,18 @@ class StringConst {
   static const String PROJECT_NAME = "Project Name";
 
   static const String INTRO = "Hi, my name is";
-  static const String DEV_NAME = "David Cobbina";
+  static const String DEV_NAME = "Sai Kiran Vepamani";
   static const String PUNCH_LINE = "I build things with flutter";
-  static const String SPECIALITY = "FLUTTER DEV";
-  static const String DESIGNED_IN = "Made in Ghana with ";
+  static const String SPECIALITY = "Full Stack DEV";
+//  static const String DESIGNED_IN = "Made in Ghana with ";
   static const String DESIGNED_BY = "Designed by Pavel G. ";
-  static const String BUILT_BY = "Built by David Cobbina ";
+//  static const String BUILT_BY = "Built by Saikiran Vepamani ";
 
   static const String ABOUT_DEV_TEXT =
-      "I'm a software engineer based in Ghana, specializing in building high quality mobile and web applications with a strong passion for opensource work. My goal is to always build pixel perfect high performant applications that provides users with a rich experience.";
+      "Current Associate Software Engineer at start-up company Zapcom Solutions. 1+ years of experience specializing in back-end development andFront end development. Interested in devising a better solving method for challenging tasks, and learning new technologies and tools if the need arises.";
 
   static const String EDUCATION_TEXT =
-      "I am self taught programmer who graduated from Kwame Nkrumah Univeristy of Science Technology with a degree in Agricultural Engineering. I love learning and writing computer programs.";
+      "I am self taught programmer who graduated from Jawaharlal Nehru Technological University Anantapuramu with a degree in Computer Science and Engineering. I love learning and writing computer programs.";
   //Form Hint Texts
   static const String NAME_HINT_TEXT = "Name";
   static const String PHONE_HINT_TEXT = "Phone (Optional)";
@@ -59,12 +59,13 @@ class StringConst {
   //Skills
   static const String FLUTTER = "Flutter";
   static const String JAVA = "Java";
-  static const String ANDROID = "Android";
-  static const String KOTLIN = "Kotlin";
+  static const String PYTHON = "Python";
+  static const String OPENCV = "OpenCV";
+  static const String C = "C/C++";
   static const String JAVASCRIPT = "Javascript";
-  static const String PHP = "PHP";
-  static const String LARAVEL = "Laravel";
-  static const String SQL = "SQL";
+  static const String ANGULAR = "Angular";
+  static const String FLASK = "Flask";
+  static const String SQL = "MySQL";
   static const String WORDPRESS = "Wordpress";
   static const String BOOTSTRAP = "Bootstrap";
   static const String HTML_CSS = "HTML/CSS";
@@ -83,14 +84,15 @@ class StringConst {
   static const String CERTIFICATION_PAGE = "/certifications";
 
   //Socials
-  static const String GITHUB_URL = "https://github.com/david-legend";
+  static const String GITHUB_URL = "https://github.com/vepamanisaikiran";
   static const String LINKED_IN_URL =
-      "https://www.linkedin.com/in/david-cobbina-7b0226119";
-  static const String TWITTER_URL = "https://twitter.com/DavidLegend47";
+      "https://www.linkedin.com/in/saikiranvepamani";
+  static const String TWITTER_URL = "https://twitter.com/Saikira64186475";
   static const String INSTAGRAM_URL =
       "https://www.instagram.com/david_legend_47";
   static const String TELEGRAM_URL = "https://t.me/DavidLegend";
-
+  static const String HACKERRANK_URL = "https://www.hackerrank.com/vepamanisaikiran";
+  static const String MEDIUM_URL = "https://medium.com/@vepamanisaikiran";
   //Contacts
   static const String CONNECT = "Connect with me";
   static const String EMAIL = "Email";
@@ -117,34 +119,36 @@ class StringConst {
   static const String ANDROID_BASICS = "Android Basics";
 
   //Experience
-  static const String CURRENT_MONTH_YEAR = "May 2020 - Current";
-  static const String STARTED_MONTH_YEAR = "May 2017";
 
-  static const String COMPANY_1 = "Makedu";
-  static const String COMPANY_1_URL = "https://bewsys.com/";
-  static const String POSITION_1 = "Software Engineer Intern";
+  static const String CURRENT_MONTH_YEAR = "July 2020 - Current";
+  static const String STARTED_MONTH_YEAR = "January 2019";
+
+  static const String COMPANY_1 = "Zapcom Solutions";
+  static const String COMPANY_1_URL = "https://zapcg.com/";
+  static const String POSITION_1 = "Full Stack Intern";
   static const String COMPANY_1_ROLE_1 =
-      "Built a Quiz app under the supervision of software engineers using PHP and Javascript";
+      "Completed full redesigns of existing zapcom portal to improve navigation, enhance visuals and built optimized landing pages in HTML and CSS, Cross-browser compatibility and responsive website.";
   static const String COMPANY_1_ROLE_2 =
-      "Architected and implemented the Back-end and Front-end of a Web application used for receiving complaints and feedback from other live apps.";
+      "Strengthened search engine rankings from 5th place to 1st place using SEO techniques.";
   static const String COMPANY_1_ROLE_3 =
-      "Learnt about Database programming and SQL";
-  static const String LOCATION_1 = "Aprade - Kumasi";
-  static const String DURATION_1 = "May 2017 - July 2017";
+      "Used places 365 data sets to generate a model for the scene classification of an image.";
+  static const String COMPANY_1_ROLE_4 = "Expedited code in java to get reviews from the Facebook page with the help developer API of 100+ clients hotels.";
+  static const String LOCATION_1 = "Bangalore - India";
+  static const String DURATION_1 = "January 2019 - January 2020";
 
-  static const String COMPANY_2 = "Shrinq";
-  static const String COMPANY_2_URL = "https://shrinqghana.com/";
-  static const String POSITION_2 = "Software Engineer";
+  static const String COMPANY_2 = "Zapcom Solutions";
+  static const String COMPANY_2_URL = "https://zapcg.com/";
+  static const String POSITION_2 = "Associate Software Engineer";
   static const String COMPANY_2_ROLE_1 =
-      "Proposed and implemented scalable solutions to issues identified in web applications.";
+      "Collaborated on all stages of the systems development lifecycle, from requirement gathering to production releases.";
   static const String COMPANY_2_ROLE_2 =
-      "Built a mobile application used to verify the authenticity of an ID to help deter fraud and provide fast and seamless customer experience";
+      "Contributed ideas and suggestions in team meetings and delivered updates on deadlines, designs, and enhancements.";
   static const String COMPANY_2_ROLE_3 =
-      "Developed highly interactive mobile applications for Vodafone Ghana using Java Android";
+      "Created eye catching and functional digital design concepts across various platforms to Strengthened company brand and identity.";
   static const String COMPANY_2_ROLE_4 =
-      "Developed and maintained code for in-house and client applications using primarily using HTML, CSS, JavaScript, PHP and Laravel";
-  static const String LOCATION_2 = "Asylum Down - Accra";
-  static const String DURATION_2 = "April 2018 - June 2019";
+      "Planned and engineered RESTful web services to manipulate dynamic datasets.";
+  static const String LOCATION_2 = "Bangalore - India";
+  static const String DURATION_2 = "February 2020 - Current";
 
   static const String COMPANY_3 = "Bewsys";
   static const String COMPANY_3_URL = "https://bewsys.com/";
@@ -187,21 +191,21 @@ class StringConst {
   static const String VYBZ_SUBTITLE =
       "An app that enlist all tourist sites, restaurants etc.";
   static const String VYBZ_DETAIL =
-      "Vybz is a very handy app for all outgoing and adventurous people. The app lists all the popular and favorites tourist sites, restaurants etc. in the country. This app was a collaboration between David Cobbina and Joseph Cobbina (Founder, CEO of Petamindz (https://petamindz.com/)).";
+      "Vybz is a very handy app for all outgoing and adventurous people. The app lists all the popular and favorites tourist sites, restaurants etc. in the country. This app was a collaboration between Saikiran Vepamani and Joseph Cobbina (Founder, CEO of Petamindz (https://petamindz.com/)).";
   static const String VYBZ_PLAYSTORE_URL = "";
 
   static const String COLOSSAL_TOONS = "Colossal Toons";
   static const String COLOSSAL_TOONS_SUBTITLE =
       "CT is an app for watching very creative and entertaining animations.";
   static const String COLOSSAL_TOONS_DETAIL =
-      "Colossal Toons is an animation production company that create exciting and fun to watch animations. The purpose of the app is to help centralize all the animations and stories made by the company. The app is also an easy and convenient way to let all the Colossal Toons fans out there get access to. This app was worked by David Cobbina, Stephen Opoku (https://www.linkedin.com/in/stephen-opoku-damoah/) and Eric Asare (https://www.linkedin.com/in/eric-asare-2550a7142/). ";
+      "Colossal Toons is an animation production company that create exciting and fun to watch animations. The purpose of the app is to help centralize all the animations and stories made by the company. The app is also an easy and convenient way to let all the Colossal Toons fans out there get access to. This app was worked by Saikiran Vepamani, Stephen Opoku (https://www.linkedin.com/in/stephen-opoku-damoah/) and Eric Asare (https://www.linkedin.com/in/eric-asare-2550a7142/). ";
   static const String COLOSSAL_TOONS_PLAYSTORE_URL = "";
 
   static const String FOODY_BITE = "FoodyBite";
   static const String FOODY_BITE_SUBTITLE =
       "A useful free ui kit design for food related apps";
   static const String FOODY_BITE_DETAIL =
-      "Foodybite is a free ui kit designed by Yagnesh Pipariya and built by David Cobbina. The goal of this project is to fast track development and inspire developers who want to build a food related app. FoodyBite was beautifully crafted with flutter. You can find the foodybite designs at https://www.behance.net/gallery/81858385/Foodybite-Free-UI-Kit-for-Adobe-XD";
+      "Foodybite is a free ui kit designed by Yagnesh Pipariya and built by Saikiran Vepamani. The goal of this project is to fast track development and inspire developers who want to build a food related app. FoodyBite was beautifully crafted with flutter. You can find the foodybite designs at https://www.behance.net/gallery/81858385/Foodybite-Free-UI-Kit-for-Adobe-XD";
   static const String FOODY_BITE_GITHUB_URL =
       "https://github.com/david-legend/foodybite";
 

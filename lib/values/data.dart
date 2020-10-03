@@ -136,10 +136,10 @@ class Data {
   static List<MenuData> menuList = [
     MenuData(title: StringConst.HOME, routeName: HomePage.homePageRoute),
     MenuData(title: StringConst.ABOUT_ME, routeName: AboutPage.aboutPageRoute),
-    MenuData(
-      title: StringConst.PORTFOLIO,
-      routeName: PortfolioPage.portfolioPageRoute,
-    ),
+//    MenuData(
+//      title: StringConst.PORTFOLIO,
+//      routeName: PortfolioPage.portfolioPageRoute,
+//    ),
     MenuData(
       title: StringConst.CONTACT,
       routeName: ContactPage.contactPageRoute,
@@ -149,24 +149,24 @@ class Data {
       routeName: ExperiencePage.experiencePageRoute,
     ),
     MenuData(title: StringConst.RESUME, routeName: StringConst.RESUME),
-    MenuData(
-      title: StringConst.CERTIFICATIONS,
-      routeName: CertificationPage.certificationPageRoute,
-    ),
+//    MenuData(
+//      title: StringConst.CERTIFICATIONS,
+//      routeName: CertificationPage.certificationPageRoute,
+//    ),
   ];
 
   static List<SkillData> skillData = [
-    SkillData(skillLevel: 95, skillName: StringConst.FLUTTER),
-    SkillData(skillLevel: 70, skillName: StringConst.JAVA),
-    SkillData(skillLevel: 78, skillName: StringConst.ANDROID),
-    SkillData(skillLevel: 70, skillName: StringConst.KOTLIN),
-    SkillData(skillLevel: 80, skillName: StringConst.JAVASCRIPT),
-    SkillData(skillLevel: 80, skillName: StringConst.PHP),
-    SkillData(skillLevel: 80, skillName: StringConst.LARAVEL),
+    SkillData(skillLevel: 75, skillName: StringConst.JAVA),
+    SkillData(skillLevel: 80, skillName: StringConst.PYTHON),
+    SkillData(skillLevel: 80, skillName: StringConst.OPENCV),
+    SkillData(skillLevel: 90, skillName: StringConst.C),
     SkillData(skillLevel: 80, skillName: StringConst.SQL),
+    SkillData(skillLevel: 80, skillName: StringConst.JAVASCRIPT),
+    SkillData(skillLevel: 65, skillName: StringConst.FLUTTER),
+    SkillData(skillLevel: 65, skillName: StringConst.ANGULAR),
     SkillData(skillLevel: 90, skillName: StringConst.WORDPRESS),
     SkillData(skillLevel: 80, skillName: StringConst.BOOTSTRAP),
-    SkillData(skillLevel: 80, skillName: StringConst.HTML_CSS),
+    SkillData(skillLevel: 85, skillName: StringConst.HTML_CSS),
   ];
 
   static List<SubMenuData> subMenuData = [
@@ -316,32 +316,32 @@ class Data {
   ];
 
   static List<ExperienceData> experienceData = [
-    ExperienceData(
-      company: StringConst.COMPANY_4,
-      position: StringConst.POSITION_4,
-      companyUrl: StringConst.COMPANY_4_URL,
-      roles: [
-        StringConst.COMPANY_4_ROLE_1,
-        StringConst.COMPANY_4_ROLE_2,
-        StringConst.COMPANY_4_ROLE_3,
-        StringConst.COMPANY_4_ROLE_4,
-      ],
-      location: StringConst.LOCATION_4,
-      duration: StringConst.DURATION_4,
-    ),
-    ExperienceData(
-      company: StringConst.COMPANY_3,
-      position: StringConst.POSITION_3,
-      companyUrl: StringConst.COMPANY_3_URL,
-      roles: [
-        StringConst.COMPANY_3_ROLE_1,
-        StringConst.COMPANY_3_ROLE_2,
-        StringConst.COMPANY_3_ROLE_3,
-        StringConst.COMPANY_3_ROLE_4,
-      ],
-      location: StringConst.LOCATION_3,
-      duration: StringConst.DURATION_3,
-    ),
+//    ExperienceData(
+//      company: StringConst.COMPANY_4,
+//      position: StringConst.POSITION_4,
+//      companyUrl: StringConst.COMPANY_4_URL,
+//      roles: [
+//        StringConst.COMPANY_4_ROLE_1,
+//        StringConst.COMPANY_4_ROLE_2,
+//        StringConst.COMPANY_4_ROLE_3,
+//        StringConst.COMPANY_4_ROLE_4,
+//      ],
+//      location: StringConst.LOCATION_4,
+//      duration: StringConst.DURATION_4,
+//    ),
+//    ExperienceData(
+//      company: StringConst.COMPANY_3,
+//      position: StringConst.POSITION_3,
+//      companyUrl: StringConst.COMPANY_3_URL,
+//      roles: [
+//        StringConst.COMPANY_3_ROLE_1,
+//        StringConst.COMPANY_3_ROLE_2,
+//        StringConst.COMPANY_3_ROLE_3,
+//        StringConst.COMPANY_3_ROLE_4,
+//      ],
+//      location: StringConst.LOCATION_3,
+//      duration: StringConst.DURATION_3,
+//    ),
     ExperienceData(
       company: StringConst.COMPANY_2,
       position: StringConst.POSITION_2,
@@ -363,6 +363,7 @@ class Data {
         StringConst.COMPANY_1_ROLE_1,
         StringConst.COMPANY_1_ROLE_2,
         StringConst.COMPANY_1_ROLE_3,
+        StringConst.COMPANY_1_ROLE_4,
       ],
       location: StringConst.LOCATION_1,
       duration: StringConst.DURATION_1,

@@ -56,10 +56,10 @@ class Socials extends StatelessWidget {
                   margin: EdgeInsets.symmetric(vertical: Sizes.MARGIN_4),
                 ),
                 SocialButton(
-                  icon: FontAwesomeIcons.twitter,
+                  icon: FontAwesomeIcons.hackerrank,
                   alignment: alignment,
                   onPressed: () {
-                    Functions.launchUrl(StringConst.TWITTER_URL);
+                    Functions.launchUrl(StringConst.HACKERRANK_URL);
                   },
                   color: color,
                 ),
@@ -69,10 +69,10 @@ class Socials extends StatelessWidget {
                   margin: EdgeInsets.symmetric(vertical: Sizes.MARGIN_4),
                 ),
                 SocialButton(
-                  icon: FontAwesomeIcons.telegramPlane,
+                  icon: FontAwesomeIcons.mediumM,
                   alignment: alignment,
                   onPressed: () {
-                    Functions.launchUrl(StringConst.TELEGRAM_URL);
+                    Functions.launchUrl(StringConst.MEDIUM_URL);
                   },
                   color: color,
                 ),
@@ -110,10 +110,10 @@ class Socials extends StatelessWidget {
                   color: barColor,
                 ),
                 SocialButton(
-                  icon: FontAwesomeIcons.twitter,
+                  icon: FontAwesomeIcons.hackerrank,
                   alignment: alignment,
                   onPressed: () {
-                    Functions.launchUrl(StringConst.TWITTER_URL);
+                    Functions.launchUrl(StringConst.HACKERRANK_URL);
                   },
                   color: color,
                 ),
@@ -123,10 +123,10 @@ class Socials extends StatelessWidget {
                   color: barColor,
                 ),
                 SocialButton(
-                  icon: FontAwesomeIcons.telegramPlane,
+                  icon: FontAwesomeIcons.dev,
                   alignment: alignment,
                   onPressed: () {
-                    Functions.launchUrl(StringConst.TELEGRAM_URL);
+                    Functions.launchUrl(StringConst.MEDIUM_URL);
                   },
                   color: color,
                 ),

@@ -167,19 +167,19 @@ class _AboutPageMobileState extends State<AboutPageMobile>
                   fontSize: Sizes.TEXT_SIZE_24,
                   controller: _flickerAnimationController.view,
                 ),
-                _isPunchLineVisible
-                    ? FlickerTextAnimation(
-                        text: StringConst.PUNCH_LINE,
-                        textColor: AppColors.primaryColor,
-                        fadeInColor: AppColors.primaryColor,
-                        controller: _flickerAnimationController2.view,
-                        textStyle: theme.textTheme.subtitle1.copyWith(
-                          fontSize: Sizes.TEXT_SIZE_24,
-                          color: AppColors.primaryColor,
-                        ),
-                      )
-                    : Container(),
-                SpaceH16(),
+//                _isPunchLineVisible
+//                    ? FlickerTextAnimation(
+//                        text: StringConst.PUNCH_LINE,
+//                        textColor: AppColors.primaryColor,
+//                        fadeInColor: AppColors.primaryColor,
+//                        controller: _flickerAnimationController2.view,
+//                        textStyle: theme.textTheme.subtitle1.copyWith(
+//                          fontSize: Sizes.TEXT_SIZE_24,
+//                          color: AppColors.primaryColor,
+//                        ),
+//                      )
+//                    : Container(),
+//                SpaceH16(),
                 _isContentVisible ? _fadeInContent() : Container(),
               ],
             ),
@@ -195,7 +195,7 @@ class _AboutPageMobileState extends State<AboutPageMobile>
     return AnimatedBuilder(
       animation: _controller,
       child: Image.asset(
-        ImagePath.DEV,
+        ImagePath.DEVM,
         height: heightOfScreen(context),
         fit: BoxFit.cover,
       ),
@@ -203,7 +203,7 @@ class _AboutPageMobileState extends State<AboutPageMobile>
         return Positioned(
           right: widthOfScreen(context) > 450
               ? -assignWidth(context: context, fraction: 0.2)
-              : -assignWidth(context: context, fraction: 0.7),
+              : -assignWidth(context: context, fraction: 0.5),
           child: FadeTransition(
             opacity: opacityAnimation,
             child: child,

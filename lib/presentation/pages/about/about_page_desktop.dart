@@ -378,19 +378,19 @@ class _AboutPageDesktopState extends State<AboutPageDesktop>
                 fontSize: Sizes.TEXT_SIZE_34,
                 controller: _flickerAnimationController.view,
               ),
-              _isSubtitleVisible
-                  ? FlickerTextAnimation(
-                      text: StringConst.PUNCH_LINE,
-                      textColor: AppColors.primaryColor,
-                      fadeInColor: AppColors.primaryColor,
-                      controller: _flickerAnimationController2.view,
-                      textStyle: theme.textTheme.subtitle1.copyWith(
-                        fontSize: Sizes.TEXT_SIZE_34,
-                        color: AppColors.accentColor2,
-                      ),
-                    )
-                  : Container(),
-              SpaceH16(),
+//              _isSubtitleVisible
+//                  ? FlickerTextAnimation(
+//                      text: StringConst.PUNCH_LINE,
+//                      textColor: AppColors.primaryColor,
+//                      fadeInColor: AppColors.primaryColor,
+//                      controller: _flickerAnimationController2.view,
+//                      textStyle: theme.textTheme.subtitle1.copyWith(
+//                        fontSize: Sizes.TEXT_SIZE_34,
+//                        color: AppColors.accentColor2,
+//                      ),
+//                    )
+//                  : Container(),
+//              SpaceH16(),
               AnimatedOpacity(
                 opacity: _visible ? aboutDevAnimation.value : 0.0,
                 duration: _aboutDevAnimationController.duration,

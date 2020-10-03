@@ -48,35 +48,35 @@ class MenuList extends StatelessWidget {
             color: AppColors.secondaryColor,
           ),
         ),
-        SpaceH20(),
-        Row(
-          children: [
-            Text(
-              StringConst.DESIGNED_IN,
-              style: theme.textTheme.bodyText1.copyWith(
-                color: AppColors.secondaryColor,
-                fontSize: Sizes.TEXT_SIZE_10,
-              ),
-            ),
-            SpaceW4(),
-            Icon(
-              FontAwesomeIcons.solidHeart,
-              color: Colors.red,
-              size: Sizes.ICON_SIZE_10,
-            )
-          ],
-        ),
-        Wrap(
-          children: [
-            Text(
-              StringConst.BUILT_BY + ", " + StringConst.DESIGNED_BY,
-              style: theme.textTheme.bodyText1.copyWith(
-                color: AppColors.secondaryColor,
-                fontSize: Sizes.TEXT_SIZE_10,
-              ),
-            ),
-          ],
-        ),
+        SpaceH30(),
+//        Row(
+//          children: [
+//            Text(
+//              StringConst.DESIGNED_IN,
+//              style: theme.textTheme.bodyText1.copyWith(
+//                color: AppColors.secondaryColor,
+//                fontSize: Sizes.TEXT_SIZE_10,
+//              ),
+//            ),
+//            SpaceW4(),
+//            Icon(
+//              FontAwesomeIcons.solidHeart,
+//              color: Colors.red,
+//              size: Sizes.ICON_SIZE_10,
+//            )
+//          ],
+//        ),
+//        Wrap(
+//          children: [
+//            Text(
+//              StringConst.BUILT_BY + ", " + StringConst.DESIGNED_BY,
+//              style: theme.textTheme.bodyText1.copyWith(
+//                color: AppColors.secondaryColor,
+//                fontSize: Sizes.TEXT_SIZE_10,
+//              ),
+//            ),
+//          ],
+//        ),
       ],
     );
   }
